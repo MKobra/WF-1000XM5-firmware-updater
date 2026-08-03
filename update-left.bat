@@ -16,6 +16,14 @@ if not exist "%FW%" (
     exit /b 1
 )
 
+echo.
+echo WARNING: flashing can permanently damage the earbuds if interrupted.
+echo Do NOT unplug the USB, remove the earbuds, or power off the PC during the update.
+echo Keep everything connected for at least 10 minutes after it finishes.
+echo.
+set /p ok=Type YES to continue: 
+if /I not "%ok%"=="YES" exit /b 1
+
 yusen.exe update left "%FW%"
 
 echo.

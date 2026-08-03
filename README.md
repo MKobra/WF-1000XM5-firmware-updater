@@ -9,9 +9,29 @@ This project is built around the same `yusen.exe` HID tool used by the public
 WF-1000XM4 updater (audiospare.com), configured for WF-1000XM5
 (VID `0x054C`, PID `0x0E63`, model HCTW2).
 
-> ⚠️ **WARNING:** Flashing interrupts device firmware. If the process is interrupted
-> (USB unplugged, PC powered off), the earbuds can be damaged. Always read the
-> instructions below before starting.
+> ⚠️ **WARNING:** Flashing interrupts device firmware. If the process is interrupted,
+> the earbuds can be permanently damaged. Use this tool **entirely at your own risk**.
+
+## Risks & Disclaimer
+
+**Please read this before doing anything.**
+
+- This is an **unofficial** tool. It is not made by, endorsed by, or affiliated with
+  Sony in any way.
+- **Never** unplug the USB cable, remove the earbuds from the case, or power off the
+  computer during an update. This includes sleep/hibernation — disable screen-off and
+  sleep timers before you start.
+- After the update completes, **keep everything connected for at least 10 minutes**.
+  Unplugging early can leave the earbuds with a corrupt firmware.
+- Use this only on **your own** WF-1000XM5 earbuds. Do not flash devices you do not own.
+- Firmware updates may **void your Sony warranty**.
+- Verify beforehand that your device really is a **WF-1000XM5**. Flashing the wrong
+  firmware (different model or region) can brick the earbuds.
+- There is no undo. Firmware cannot be restored if the flash fails mid-way.
+- The author provides this project **"as is"**, without any warranty of any kind,
+  express or implied, including fitness for a particular purpose. The author is
+  **not responsible** for any damage to your earbuds, charging case, computer, data
+  loss, loss of warranty, or any other loss or damage caused by using this tool.
 
 ## When is this useful?
 
@@ -143,6 +163,8 @@ working folder into the same folder as `yusen.exe`.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
-The firmware files are Sony property and are redistributed here only as a convenience
-mirror for owners of the devices.
+MIT — see [LICENSE](LICENSE). The MIT license covers only the files authored by the
+project author (`README.md`, `*.bat` scripts, and other project files). The firmware
+files are Sony property and are redistributed here only as a convenience mirror for
+owners of the devices. `yusen.exe`, `hidapi.dll`, `msvcr110.dll` and `config.ini` are
+third-party binaries and remain the property of their respective owners.
