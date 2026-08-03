@@ -46,11 +46,19 @@ Firmware files are official Sony packages mirrored from the public
 
 ## Step 1 — Connect the earbuds
 
+> 💡 **Important Note: Connecting the WF-1000XM5 to a PC can sometimes be tricky.**
+> Press and hold the button on the back of the charging case and **keep it held down
+> throughout the entire connection process**. Connect the charging case to the computer
+> using a USB-C cable, and then **open and close the charging case 15–20 times** to
+> activate the earphones and establish a stable connection. If you skip this, the PC
+> may not see the earbuds at all.
+
 1. Put **both** earbuds into the charging case.
-2. Connect the case to the computer with the USB cable.
-3. If the computer does not recognize the case, use the recommended trick:
-   **press and hold the button on the back of the charging case**, keep it held,
-   and **open and close the case lid 15–20 times** until the computer makes a beep.
+2. Press and hold the button on the back of the charging case and keep it held.
+3. Connect the case to the computer with the USB-C cable.
+4. While keeping the button held, open and close the case lid 15–20 times until the
+   computer makes a beep (the earbuds are now activated and the connection is stable).
+5. Only now release the button.
 
 ## Step 2 — Check the current versions
 

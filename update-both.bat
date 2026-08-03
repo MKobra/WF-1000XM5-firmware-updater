@@ -3,6 +3,10 @@ rem Update BOTH earbuds at the same time (dual target).
 rem Use this only when both earbuds are on the same firmware version.
 rem Change FW below to use a different firmware file (see README "Add your own firmware").
 
+rem Important: connecting XM5 to a PC can be tricky. Hold the button on the back of
+rem the charging case, connect the USB-C cable, and open/close the case lid 15-20
+rem times to activate the earbuds. Otherwise the PC will not see them.
+
 cd /d "%~dp0"
 set FW=firmware\UPG_english_enc.bin
 
